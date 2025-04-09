@@ -13,7 +13,7 @@ function envioDados(dados) {
 
         if (imc < 18.5){
             console.log("Você está abaixo do peso");
-            resultado.innerHTML += `<h1> Você está abaixo do peso ele é: <br> ${imc.toFixed(2)}</h1>`;
+            resultado.innerHTML += `<h1> Você está abaixo do peso ele é: ${imc.toFixed(2)}</h1>`;
         } else if (imc >= 18.5 && imc <= 24.9) {
             console.log("Você tem um peso normal");
             resultado.innerHTML +=`<h1>Você tem um peso normal ele é:  ${imc.toFixed(2)}</h1>`;
